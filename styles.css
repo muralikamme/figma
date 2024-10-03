@@ -1,0 +1,70 @@
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+ }
+ label, input {
+    margin: 10px 0;
+ }
+  */
+
+
+
+  /* Background Image for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+/* Glassmorphism Effect for the form */
+form {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    backdrop-filter: blur(15px); /* Blur effect for glass look */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Fields */
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+/* Button */
+button {
+    background-color: rgba(0, 123, 255, 0.7); /* Semi-transparent button */
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(0, 123, 255, 1); /* Full color on hover */
+}
